@@ -1,0 +1,149 @@
+
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(99, 105, 187);
+    color: rgb(94, 51, 17);
+    text-align: center;
+    font-size: small;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0px;
+   
+}
+h2{
+
+    margin-top: 2%;
+}
+.links h2{
+    display: inline;
+}
+div.shadow {
+    position:absolute;
+    max-width:40%;
+    max-height:40%;
+    top:59%;
+    left:40%;
+    overflow:visible;
+}
+img.logo {
+    position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-top:-50%;
+    margin-left:-50%;
+}
+.links{
+    position: fixed;
+    left: 50%;
+    bottom: 4%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+
+/* for About page */
+.half {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: 0px;
+    padding: 0px;
+   
+  }
+  
+  .lhalf {
+    left: 0;
+    background-color: rgb(99, 105, 187);
+  }
+  
+  .rhalf {
+    right: 0;
+    background-color: rgb(214, 216, 235);
+  }
+.lhalf h2{
+    font-size: 430%;
+    text-decoration: underline;
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
+  .halfcenter {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  
+.linksleft h3{
+    display: inline;
+}
+.linksleft{
+    position: fixed;
+    left: 25%;
+    bottom: 4%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    
+}
+p{
+    margin-top: 8%;
+    font-weight: 500;
+    font-size: medium;
+    text-align: left;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.half h1{
+    margin-top: 8%;
+    font-weight: 800;
+    font-size: large;
+    text-align: left;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+img.work {
+   
+    margin-top: 0%;
+    width: 100%;
+    height: 100%;
+
+}
+.imagehead {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(38, 39, 92);
+}
+
+
+.empty{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(208, 210, 228);
+    font-size: 300%;
+    font-style: oblique;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+   
+}
+
+
+a{
+
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: rgb(54, 28, 9); ;
+    font-size: large;
+}
